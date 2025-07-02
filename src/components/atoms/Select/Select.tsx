@@ -11,7 +11,7 @@ const StyledSelect = chakra(NativeSelect.Root, selectRecipe);
 
 type SelectVariantProps = RecipeVariantProps<typeof selectRecipe>;
 
-interface SelectProps extends SelectVariantProps {
+export interface SelectProps extends SelectVariantProps {
   placeholder?: string;
   value?: string;
   options: SelectOption[];
