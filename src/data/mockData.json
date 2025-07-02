@@ -1,0 +1,397 @@
+{
+  "categories": [
+    {
+      "id": "comida",
+      "name": "Comida"
+    },
+    {
+      "id": "bebida",
+      "name": "Bebida"
+    },
+    {
+      "id": "eletronicos",
+      "name": "Eletrônicos"
+    }
+  ],
+  "products": [
+    {
+      "id": "fruta",
+      "name": "Fruta",
+      "categoryId": "comida"
+    },
+    {
+      "id": "verdura",
+      "name": "Verdura",
+      "categoryId": "comida"
+    },
+    {
+      "id": "carne",
+      "name": "Carne",
+      "categoryId": "comida"
+    },
+    {
+      "id": "refrigerante",
+      "name": "Refrigerante",
+      "categoryId": "bebida"
+    },
+    {
+      "id": "suco",
+      "name": "Suco",
+      "categoryId": "bebida"
+    },
+    {
+      "id": "agua",
+      "name": "Água",
+      "categoryId": "bebida"
+    },
+    {
+      "id": "smartphone",
+      "name": "Smartphone",
+      "categoryId": "eletronicos"
+    },
+    {
+      "id": "laptop",
+      "name": "Laptop",
+      "categoryId": "eletronicos"
+    },
+    {
+      "id": "tablet",
+      "name": "Tablet",
+      "categoryId": "eletronicos"
+    }
+  ],
+  "brands": [
+    {
+      "id": "frutas1",
+      "name": "Frutas1",
+      "productId": "fruta"
+    },
+    {
+      "id": "frutas2",
+      "name": "Frutas2",
+      "productId": "fruta"
+    },
+    {
+      "id": "frutas3",
+      "name": "Frutas3",
+      "productId": "fruta"
+    },
+    {
+      "id": "verduras1",
+      "name": "Verduras1",
+      "productId": "verdura"
+    },
+    {
+      "id": "verduras2",
+      "name": "Verduras2",
+      "productId": "verdura"
+    },
+    {
+      "id": "carnes1",
+      "name": "Carnes1",
+      "productId": "carne"
+    },
+    {
+      "id": "carnes2",
+      "name": "Carnes2",
+      "productId": "carne"
+    },
+    {
+      "id": "cocacola",
+      "name": "Coca-Cola",
+      "productId": "refrigerante"
+    },
+    {
+      "id": "pepsi",
+      "name": "Pepsi",
+      "productId": "refrigerante"
+    },
+    {
+      "id": "guarana",
+      "name": "Guaraná",
+      "productId": "refrigerante"
+    },
+    {
+      "id": "delValle",
+      "name": "Del Valle",
+      "productId": "suco"
+    },
+    {
+      "id": "maguary",
+      "name": "Maguary",
+      "productId": "suco"
+    },
+    {
+      "id": "crystal",
+      "name": "Crystal",
+      "productId": "agua"
+    },
+    {
+      "id": "bonafont",
+      "name": "Bonafont",
+      "productId": "agua"
+    },
+    {
+      "id": "apple",
+      "name": "Apple",
+      "productId": "smartphone"
+    },
+    {
+      "id": "samsung",
+      "name": "Samsung",
+      "productId": "smartphone"
+    },
+    {
+      "id": "xiaomi",
+      "name": "Xiaomi",
+      "productId": "smartphone"
+    },
+    {
+      "id": "dell",
+      "name": "Dell",
+      "productId": "laptop"
+    },
+    {
+      "id": "lenovo",
+      "name": "Lenovo",
+      "productId": "laptop"
+    },
+    {
+      "id": "hp",
+      "name": "HP",
+      "productId": "laptop"
+    },
+    {
+      "id": "ipad",
+      "name": "iPad",
+      "productId": "tablet"
+    },
+    {
+      "id": "galaxyTab",
+      "name": "Galaxy Tab",
+      "productId": "tablet"
+    }
+  ],
+  "salesData": [
+    {
+      "brandId": "frutas1",
+      "brandName": "Frutas1",
+      "salesData": [
+        { "month": "Janeiro", "sales": 50 },
+        { "month": "Fevereiro", "sales": 500 },
+        { "month": "Março", "sales": 320 },
+        { "month": "Abril", "sales": 24 }
+      ]
+    },
+    {
+      "brandId": "frutas2",
+      "brandName": "Frutas2",
+      "salesData": [
+        { "month": "Janeiro", "sales": 80 },
+        { "month": "Fevereiro", "sales": 420 },
+        { "month": "Março", "sales": 280 },
+        { "month": "Abril", "sales": 45 }
+      ]
+    },
+    {
+      "brandId": "frutas3",
+      "brandName": "Frutas3",
+      "salesData": [
+        { "month": "Janeiro", "sales": 120 },
+        { "month": "Fevereiro", "sales": 380 },
+        { "month": "Março", "sales": 450 },
+        { "month": "Abril", "sales": 67 }
+      ]
+    },
+    {
+      "brandId": "verduras1",
+      "brandName": "Verduras1",
+      "salesData": [
+        { "month": "Janeiro", "sales": 30 },
+        { "month": "Fevereiro", "sales": 250 },
+        { "month": "Março", "sales": 180 },
+        { "month": "Abril", "sales": 15 }
+      ]
+    },
+    {
+      "brandId": "verduras2",
+      "brandName": "Verduras2",
+      "salesData": [
+        { "month": "Janeiro", "sales": 45 },
+        { "month": "Fevereiro", "sales": 320 },
+        { "month": "Março", "sales": 240 },
+        { "month": "Abril", "sales": 28 }
+      ]
+    },
+    {
+      "brandId": "carnes1",
+      "brandName": "Carnes1",
+      "salesData": [
+        { "month": "Janeiro", "sales": 200 },
+        { "month": "Fevereiro", "sales": 450 },
+        { "month": "Março", "sales": 380 },
+        { "month": "Abril", "sales": 150 }
+      ]
+    },
+    {
+      "brandId": "carnes2",
+      "brandName": "Carnes2",
+      "salesData": [
+        { "month": "Janeiro", "sales": 180 },
+        { "month": "Fevereiro", "sales": 420 },
+        { "month": "Março", "sales": 350 },
+        { "month": "Abril", "sales": 120 }
+      ]
+    },
+    {
+      "brandId": "cocacola",
+      "brandName": "Coca-Cola",
+      "salesData": [
+        { "month": "Janeiro", "sales": 300 },
+        { "month": "Fevereiro", "sales": 550 },
+        { "month": "Março", "sales": 480 },
+        { "month": "Abril", "sales": 200 }
+      ]
+    },
+    {
+      "brandId": "pepsi",
+      "brandName": "Pepsi",
+      "salesData": [
+        { "month": "Janeiro", "sales": 250 },
+        { "month": "Fevereiro", "sales": 480 },
+        { "month": "Março", "sales": 420 },
+        { "month": "Abril", "sales": 180 }
+      ]
+    },
+    {
+      "brandId": "guarana",
+      "brandName": "Guaraná",
+      "salesData": [
+        { "month": "Janeiro", "sales": 180 },
+        { "month": "Fevereiro", "sales": 380 },
+        { "month": "Março", "sales": 320 },
+        { "month": "Abril", "sales": 140 }
+      ]
+    },
+    {
+      "brandId": "delValle",
+      "brandName": "Del Valle",
+      "salesData": [
+        { "month": "Janeiro", "sales": 120 },
+        { "month": "Fevereiro", "sales": 280 },
+        { "month": "Março", "sales": 240 },
+        { "month": "Abril", "sales": 90 }
+      ]
+    },
+    {
+      "brandId": "maguary",
+      "brandName": "Maguary",
+      "salesData": [
+        { "month": "Janeiro", "sales": 100 },
+        { "month": "Fevereiro", "sales": 220 },
+        { "month": "Março", "sales": 190 },
+        { "month": "Abril", "sales": 75 }
+      ]
+    },
+    {
+      "brandId": "crystal",
+      "brandName": "Crystal",
+      "salesData": [
+        { "month": "Janeiro", "sales": 80 },
+        { "month": "Fevereiro", "sales": 180 },
+        { "month": "Março", "sales": 150 },
+        { "month": "Abril", "sales": 60 }
+      ]
+    },
+    {
+      "brandId": "bonafont",
+      "brandName": "Bonafont",
+      "salesData": [
+        { "month": "Janeiro", "sales": 90 },
+        { "month": "Fevereiro", "sales": 200 },
+        { "month": "Março", "sales": 170 },
+        { "month": "Abril", "sales": 70 }
+      ]
+    },
+    {
+      "brandId": "apple",
+      "brandName": "Apple",
+      "salesData": [
+        { "month": "Janeiro", "sales": 800 },
+        { "month": "Fevereiro", "sales": 950 },
+        { "month": "Março", "sales": 1200 },
+        { "month": "Abril", "sales": 750 }
+      ]
+    },
+    {
+      "brandId": "samsung",
+      "brandName": "Samsung",
+      "salesData": [
+        { "month": "Janeiro", "sales": 650 },
+        { "month": "Fevereiro", "sales": 780 },
+        { "month": "Março", "sales": 920 },
+        { "month": "Abril", "sales": 580 }
+      ]
+    },
+    {
+      "brandId": "xiaomi",
+      "brandName": "Xiaomi",
+      "salesData": [
+        { "month": "Janeiro", "sales": 450 },
+        { "month": "Fevereiro", "sales": 620 },
+        { "month": "Março", "sales": 750 },
+        { "month": "Abril", "sales": 380 }
+      ]
+    },
+    {
+      "brandId": "dell",
+      "brandName": "Dell",
+      "salesData": [
+        { "month": "Janeiro", "sales": 300 },
+        { "month": "Fevereiro", "sales": 420 },
+        { "month": "Março", "sales": 380 },
+        { "month": "Abril", "sales": 250 }
+      ]
+    },
+    {
+      "brandId": "lenovo",
+      "brandName": "Lenovo",
+      "salesData": [
+        { "month": "Janeiro", "sales": 280 },
+        { "month": "Fevereiro", "sales": 380 },
+        { "month": "Março", "sales": 340 },
+        { "month": "Abril", "sales": 220 }
+      ]
+    },
+    {
+      "brandId": "hp",
+      "brandName": "HP",
+      "salesData": [
+        { "month": "Janeiro", "sales": 320 },
+        { "month": "Fevereiro", "sales": 450 },
+        { "month": "Março", "sales": 400 },
+        { "month": "Abril", "sales": 280 }
+      ]
+    },
+    {
+      "brandId": "ipad",
+      "brandName": "iPad",
+      "salesData": [
+        { "month": "Janeiro", "sales": 200 },
+        { "month": "Fevereiro", "sales": 350 },
+        { "month": "Março", "sales": 420 },
+        { "month": "Abril", "sales": 180 }
+      ]
+    },
+    {
+      "brandId": "galaxyTab",
+      "brandName": "Galaxy Tab",
+      "salesData": [
+        { "month": "Janeiro", "sales": 150 },
+        { "month": "Fevereiro", "sales": 280 },
+        { "month": "Março", "sales": 320 },
+        { "month": "Abril", "sales": 140 }
+      ]
+    }
+  ]
+}
