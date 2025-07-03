@@ -63,37 +63,37 @@
   "brands": [
     {
       "id": "frutas1",
-      "name": "Frutas1",
+      "name": "Goiaba",
       "productId": "fruta"
     },
     {
       "id": "frutas2",
-      "name": "Frutas2",
+      "name": "Manga",
       "productId": "fruta"
     },
     {
       "id": "frutas3",
-      "name": "Frutas3",
+      "name": "Laranja",
       "productId": "fruta"
     },
     {
       "id": "verduras1",
-      "name": "Verduras1",
+      "name": "Alface",
       "productId": "verdura"
     },
     {
       "id": "verduras2",
-      "name": "Verduras2",
+      "name": "Rúcula",
       "productId": "verdura"
     },
     {
       "id": "carnes1",
-      "name": "Carnes1",
+      "name": "Aves",
       "productId": "carne"
     },
     {
       "id": "carnes2",
-      "name": "Carnes2",
+      "name": "Suínos",
       "productId": "carne"
     },
     {

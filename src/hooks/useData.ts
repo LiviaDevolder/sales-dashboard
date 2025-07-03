@@ -55,9 +55,8 @@ export const useData = () => {
       productsByCategory,
       brandsByProduct,
     };
-  }, [data]); // Depende de `data`, que é estático neste caso.
+  }, [data]);
 
-  // A lista de categorias para o seletor é calculada uma vez.
   const categories = useMemo(
     (): SelectOption[] =>
       data.categories.map(category => ({

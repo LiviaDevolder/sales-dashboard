@@ -8,6 +8,7 @@ export const headerRecipe = defineSlotRecipe({
       color: 'white',
       py: 4,
       px: { base: 4, md: 6 },
+      bgColor: 'brand.900',
     },
     container: {
       display: 'flex',
@@ -23,17 +24,5 @@ export const headerRecipe = defineSlotRecipe({
       borderRadius: 'full',
       bg: 'red.400',
     },
-  },
-  variants: {
-    variant: {
-      brand: {
-        root: {
-          gradient: 'linear(to-r, purple.500, blue.500)',
-        },
-      },
-    },
-  },
-  defaultVariants: {
-    variant: 'brand',
   },
 });

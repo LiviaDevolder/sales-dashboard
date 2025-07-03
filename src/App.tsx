@@ -1,12 +1,11 @@
-import { ChakraProvider, defaultSystem } from '@chakra-ui/react';
-// import { DashboardTemplate } from './components/templates';
+import { DashboardTemplate } from './components/templates';
+import { Provider } from './components/ui/provider';
 
 function App() {
   return (
-    <ChakraProvider value={defaultSystem}>
-      Dashboard
-      {/* <DashboardTemplate /> */}
-    </ChakraProvider>
+    <Provider>
+      <DashboardTemplate />
+    </Provider>
   );
 }
 

@@ -17,14 +17,12 @@ import type { SalesData } from '../../../types';
 interface LineChartProps {
   data: SalesData[];
   title?: string;
-  height?: number;
   'data-testid'?: string;
 }
 
 export const LineChart: React.FC<LineChartProps> = ({
   data,
   title,
-  height = 400,
   'data-testid': testId,
 }) => {
   const chart = useChart({
@@ -39,7 +37,7 @@ export const LineChart: React.FC<LineChartProps> = ({
           {title}
         </Heading>
       )}
-      <Box height={height}>
+      <Box height="100%">
         <Chart.Root chart={chart}>
           <ResponsiveContainer width="100%" height="100%">
             <RechartsLineChart data={chart.data}>

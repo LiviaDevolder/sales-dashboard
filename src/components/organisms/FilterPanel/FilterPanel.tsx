@@ -3,7 +3,7 @@ import { SimpleGrid } from '@chakra-ui/react';
 import { SelectField } from '../../molecules';
 import type { SelectOption } from '../../../types';
 
-interface FilterConfig {
+export interface FilterConfig {
   id: string;
   label: string;
   placeholder: string;

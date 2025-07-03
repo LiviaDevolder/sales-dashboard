@@ -21,7 +21,7 @@ export const ChartSection: React.FC<ChartSectionProps> = ({
           {title}
         </Heading>
       </Card.Header>
-      <Card.Body>
+      <Card.Body minHeight="300px">
         <LineChart data={data} />
       </Card.Body>
     </Card.Root>
