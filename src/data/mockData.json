@@ -175,7 +175,7 @@
   "salesData": [
     {
       "brandId": "frutas1",
-      "brandName": "Frutas1",
+      "brandName": "Goiaba",
       "salesData": [
         { "month": "Janeiro", "sales": 50 },
         { "month": "Fevereiro", "sales": 500 },
@@ -185,7 +185,7 @@
     },
     {
       "brandId": "frutas2",
-      "brandName": "Frutas2",
+      "brandName": "Manga",
       "salesData": [
         { "month": "Janeiro", "sales": 80 },
         { "month": "Fevereiro", "sales": 420 },
@@ -195,7 +195,7 @@
     },
     {
       "brandId": "frutas3",
-      "brandName": "Frutas3",
+      "brandName": "Laranja",
       "salesData": [
         { "month": "Janeiro", "sales": 120 },
         { "month": "Fevereiro", "sales": 380 },
@@ -205,7 +205,7 @@
     },
     {
       "brandId": "verduras1",
-      "brandName": "Verduras1",
+      "brandName": "Alface",
       "salesData": [
         { "month": "Janeiro", "sales": 30 },
         { "month": "Fevereiro", "sales": 250 },
@@ -215,7 +215,7 @@
     },
     {
       "brandId": "verduras2",
-      "brandName": "Verduras2",
+      "brandName": "Rúcula",
       "salesData": [
         { "month": "Janeiro", "sales": 45 },
         { "month": "Fevereiro", "sales": 320 },
@@ -225,7 +225,7 @@
     },
     {
       "brandId": "carnes1",
-      "brandName": "Carnes1",
+      "brandName": "Aves",
       "salesData": [
         { "month": "Janeiro", "sales": 200 },
         { "month": "Fevereiro", "sales": 450 },
@@ -235,7 +235,7 @@
     },
     {
       "brandId": "carnes2",
-      "brandName": "Carnes2",
+      "brandName": "Suínos",
       "salesData": [
         { "month": "Janeiro", "sales": 180 },
         { "month": "Fevereiro", "sales": 420 },
